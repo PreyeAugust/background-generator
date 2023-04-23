@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/Images/pexels-fauxels-3184635.jpg);
+}
+
+.box {
+    background: white;
+    width: 480px;
+    height: 660px;
+    margin: 6% auto;
+    padding: 5px;
+}
+
+.reg-port {
+    width: 230px;
+    box-shadow: 0 0 20px 9px burlywood;
+    margin: 35px auto;
+    border-radius: 30px;
+}
+
+.Preye {
+    padding: 10px 25px ;
+    background: transparent;
+    border: 0;
+    text-transform: uppercase;
+    background: linear-gradient(to right, red,yellow );
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.Martha {
+    padding: 10px 25px ;
+    background: transparent;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.social-icons {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.First-input {
+    width: 60%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+
+.Register {
+    position: absolute;
+    left: 537px;
+    padding: 20px 50px;
+    background: transparent;
+    background: linear-gradient(to right, red, yellow);
+    border-radius: 35px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}

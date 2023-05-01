@@ -83,7 +83,7 @@
 //}
 
 
-var itemList = document.querySelector('#items');
+//var itemList = document.querySelector('#items');
 //parentNode
 //console.log(itemList.parentNode);
 //itemList.parentNode.style.backgroundColor = 'red';
@@ -189,8 +189,8 @@ var itemList = document.querySelector('#items');
 //}
 
 
-var button = document.getElementById('button')
-var box = document.getElementById('box')
+//var button = document.getElementById('button')
+//var box = document.getElementById('box')
 
 
 //button.addEventListener('click', runEvent);
@@ -208,9 +208,9 @@ var box = document.getElementById('box')
 
 
 
-var itemInput = document.querySelector('input[type="text"]');
-var form = document.querySelector('form');
-var select = document.querySelector('select');
+//var itemInput = document.querySelector('input[type="text"]');
+//var form = document.querySelector('form');
+//var select = document.querySelector('select');
 
 //itemInput.addEventListener('keydown', runEvent);
 
@@ -224,21 +224,26 @@ var select = document.querySelector('select');
 
 //itemInput.addEventListener('input', runEvent);
 
-select.addEventListener('change', runEvent);
-select.addEventListener('input', runEvent);
+//select.addEventListener('change', runEvent);
+//select.addEventListener('input', runEvent);
 
 
-form.addEventListener('submit', runEvent);
+//form.addEventListener('submit', runEvent);
 
-function runEvent(e) {
-  e.preventDefault();
-    console.log('EVENT TYPE: '+e.type);
+//function runEvent(e) {
+  //e.preventDefault();
+    //console.log('EVENT TYPE: '+e.type);
     //document.body.style.display = 'none';
 
-    console.log(e.target.value);
+    //console.log(e.target.value);
     //document.getElementById('output').innerHTML = '<h3>'+e.target.value+'</h3>';
 
    // output.innerHTML = '<h3>MouseX: '+e.offsetX+' </h3><h3>MouseY: '+e.offsetY+'</h3>';
 
    //document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+",40)";
-}
+//}
+
+var _ = require('lodash');
+
+var array = [1,2,3,4,5,6,7,8];
+console.log('answer:', _.without(array, 3));
